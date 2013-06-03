@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BinaryTree
 {
@@ -107,6 +104,29 @@ namespace BinaryTree
             }
         }
 
-       
+        public bool Contains(T value)
+        {
+            return Contains(value, root);
+        }
+
+        private bool Contains(T value, TreeNode<T> currentNode)
+        {
+            if (currentNode == null)
+            {
+                return false;
+            }
+            else if (currentNode.Value.CompareTo(value) == 0)
+            {
+                return true;
+            }
+            else if (currentNode.Value.CompareTo(value) < 0)
+            {
+              return  Contains(value, currentNode.Right);
+            }
+            else
+            {
+              return  Contains(value, currentNode.Left);
+            }
+        }
     }
 }
