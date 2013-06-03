@@ -1,0 +1,6 @@
+C:\Users\1\Desktop\PhotoShopFirstHomework\Photoshop\SDP\BinaryTree\BinaryTree\bin\Debug\BinaryTree.exe.config
+C:\Users\1\Desktop\PhotoShopFirstHomework\Photoshop\SDP\BinaryTree\BinaryTree\bin\Debug\BinaryTree.exe
+C:\Users\1\Desktop\PhotoShopFirstHomework\Photoshop\SDP\BinaryTree\BinaryTree\bin\Debug\BinaryTree.pdb
+C:\Users\1\Desktop\PhotoShopFirstHomework\Photoshop\SDP\BinaryTree\BinaryTree\obj\Debug\BinaryTree.csprojResolveAssemblyReference.cache
+C:\Users\1\Desktop\PhotoShopFirstHomework\Photoshop\SDP\BinaryTree\BinaryTree\obj\Debug\BinaryTree.exe
+C:\Users\1\Desktop\PhotoShopFirstHomework\Photoshop\SDP\BinaryTree\BinaryTree\obj\Debug\BinaryTree.pdb
