@@ -16,7 +16,7 @@ namespace BinaryTree
         static void Main(string[] args)
         {
 
-            Tree<int> tree = new Tree<int>(3);
+            Tree<int> tree = new Tree<int>();
 
             tree.AddNode(3);
             tree.AddNode(5);
@@ -24,13 +24,21 @@ namespace BinaryTree
             tree.AddNode(1);
             tree.AddNode(6);
             tree.AddNode(7);
+            tree.AddNode(4);
+            tree.AddNode(5);
+            tree.AddNode(10);
+            tree.AddNode(6);
 
             //Console.WriteLine(tree.Root);
 
             //tree.Root.Left = new TreeNode<int>();
             //Add(tree.Root.Left);
 
-            Console.WriteLine(tree.Root.Left);
+            //Console.WriteLine(tree.Root.Left);
+
+            tree.DFS();
+            Console.WriteLine();
+            tree.BFS();
 
             
         }

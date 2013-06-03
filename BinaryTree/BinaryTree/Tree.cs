@@ -8,7 +8,7 @@ namespace BinaryTree
 {
     public class Tree<T> where T : IComparable<T>
     {
-        private TreeNode<T> root = new TreeNode<T>();
+        private TreeNode<T> root;
 
         public Tree()
         {
@@ -39,34 +39,74 @@ namespace BinaryTree
                 return;
             }
 
-            if (root.Value.CompareTo(value) > 0)
-            {
-                TreeNode<T> current = new TreeNode<T>(value);
-                this.AddNode(current, root.Left);
-            }
-            else
-            {
-                TreeNode<T> current = new TreeNode<T>(value);
-                this.AddNode(current, root.Right);
-            }           
+            this.AddNode(this.root, value);
         }
 
-        private void AddNode(TreeNode<T> addedNode, TreeNode<T> currentNode)
+        private void AddNode(TreeNode<T> node, T value)
+        { 
+            if (value.CompareTo(node.Value) < 0)
+            {
+                if (node.Left == null)
+                {
+                    node.AddLeftNode(value);
+                }
+                else
+                {
+                    this.AddNode(node.Left, value);
+                }
+            }
+            else 
+            {
+                if (node.Right == null)
+                {
+                    node.AddRightNode(value);
+                }
+                else
+                {
+                    this.AddNode(node.Right, value);
+                }
+            }
+        }
+
+        public void DFS()
+        {
+            DFS(root);
+        }
+
+        private void DFS(TreeNode<T> currentNode)
         {
             if (currentNode == null)
             {
-                currentNode = new TreeNode<T>(addedNode.Value);
                 return;
             }
+            Console.WriteLine(currentNode);
 
-            if (currentNode.Value.CompareTo(addedNode.Value) <= 0)
-            {
-                this.AddNode(new TreeNode<T>(addedNode.Value), currentNode.Left);
-            }
-            else
-            {
-                this.AddNode(new TreeNode<T>(addedNode.Value), currentNode.Right);
-            }  
+            DFS(currentNode.Left);
+            DFS(currentNode.Right);
         }
+
+        public void BFS()
+        {
+            Queue<TreeNode<T>> queue = new Queue<TreeNode<T>>();
+            queue.Enqueue(root);
+
+            while (queue.Count > 0)
+            {
+                var currentNode = queue.Dequeue();
+
+                Console.WriteLine(currentNode);
+                if (currentNode.Left != null)
+                {
+                    queue.Enqueue(currentNode.Left);
+                }
+                if (currentNode.Right != null)
+                {
+                    queue.Enqueue(currentNode.Right);
+                }
+               
+            }
+        }
+
+       
     }
 }

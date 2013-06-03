@@ -21,7 +21,17 @@
 
         public override string ToString()
         {
-            return string.Format("{0}", this.Value );
+            return string.Format("{0}", this.Value);
+        }
+
+        public void AddLeftNode(T value)
+        {
+            this.left = new TreeNode<T>(value);
+        }
+
+        public void AddRightNode(T value)
+        {
+            this.right = new TreeNode<T>(value);
         }
 
         public TreeNode<T> Parent
