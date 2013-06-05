@@ -40,9 +40,7 @@ namespace BinaryTree
             Console.WriteLine();
             tree.BFS();
 
-            Console.WriteLine(tree.Contains(3));
-
-            
+            Console.WriteLine(tree.Contains(3));          
         }
     }
 }
