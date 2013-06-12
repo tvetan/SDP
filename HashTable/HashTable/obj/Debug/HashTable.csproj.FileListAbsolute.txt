@@ -1,1 +1,6 @@
 C:\Users\1\Desktop\PhotoShopFirstHomework\Photoshop\SDP\HashTable\HashTable\bin\Debug\HashTable.exe.config
+C:\Users\1\Desktop\PhotoShopFirstHomework\Photoshop\SDP\HashTable\HashTable\obj\Debug\HashTable.csprojResolveAssemblyReference.cache
+C:\Users\1\Desktop\PhotoShopFirstHomework\Photoshop\SDP\HashTable\HashTable\bin\Debug\HashTable.exe
+C:\Users\1\Desktop\PhotoShopFirstHomework\Photoshop\SDP\HashTable\HashTable\bin\Debug\HashTable.pdb
+C:\Users\1\Desktop\PhotoShopFirstHomework\Photoshop\SDP\HashTable\HashTable\obj\Debug\HashTable.exe
+C:\Users\1\Desktop\PhotoShopFirstHomework\Photoshop\SDP\HashTable\HashTable\obj\Debug\HashTable.pdb

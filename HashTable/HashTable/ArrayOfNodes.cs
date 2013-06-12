@@ -9,6 +9,5 @@ namespace HashTable
     public class ArrayOfNodes<TKey,TValue> 
     {
        public List<Node<TKey, TValue>> nodesArray = new List<Node<TKey, TValue>>();
-
     }
 }
