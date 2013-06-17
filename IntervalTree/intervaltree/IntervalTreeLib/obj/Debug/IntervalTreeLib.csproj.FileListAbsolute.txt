@@ -1,0 +1,7 @@
+C:\Users\1\Desktop\trunk\intervaltree\IntervalTreeLib\bin\Debug\IntervalTreeLib.dll
+C:\Users\1\Desktop\trunk\intervaltree\IntervalTreeLib\bin\Debug\IntervalTreeLib.pdb
+C:\Users\1\Desktop\trunk\intervaltree\IntervalTreeLib\bin\Debug\PowerCollections.dll
+C:\Users\1\Desktop\trunk\intervaltree\IntervalTreeLib\bin\Debug\PowerCollections.pdb
+C:\Users\1\Desktop\trunk\intervaltree\IntervalTreeLib\obj\Debug\IntervalTreeLib.csprojResolveAssemblyReference.cache
+C:\Users\1\Desktop\trunk\intervaltree\IntervalTreeLib\obj\Debug\IntervalTreeLib.dll
+C:\Users\1\Desktop\trunk\intervaltree\IntervalTreeLib\obj\Debug\IntervalTreeLib.pdb
